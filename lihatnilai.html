@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Lihat dan Ekspor Rekap Nilai</title>
+  <link rel="stylesheet" href="./lihatnilai.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Rekap Nilai Siswa</h1>
+
+    <div class="filter-bar">
+      <select>
+        <option value="">Pilih Kelas</option>
+        <option>XI RPL</option>
+        <option>XI AKL</option>
+        <option>XI MP</option>
+      </select>
+      <select>
+        <option value="">Pilih Semester</option>
+        <option>Semester 1</option>
+        <option>Semester 2</option>
+      </select>
+      <button class="filter">Terapkan</button>
+      <button class="export">Ekspor ke Excel</button>
+    </div>
+
+    <table>
+      <thead>
+        <tr>
+          <th>Nama Siswa</th>
+          <th>Matematika</th>
+          <th>Bahasa Indonesia</th>
+          <th>Bahasa Inggris</th>
+          <th>Rata-Rata</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Tira Vegianis</td>
+          <td>85</td>
+          <td>88</td>
+          <td>90</td>
+          <td>87.7</td>
+        </tr>
+        <tr>
+          <td>Camilla Noor</td>
+          <td>78</td>
+          <td>82</td>
+          <td>75</td>
+          <td>78.3</td>
+        </tr>
+        <!-- Tambah data lainnya -->
+      </tbody>
+    </table>
+  </div>
+</body>
+</html>
+

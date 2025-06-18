@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Kelola Pengumuman Akademik</title>
+  <link rel="stylesheet" href="./kelolapengumuman.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Kelola Pengumuman Akademik</h1>
+
+    <form class="form-pengumuman">
+      <input type="text" placeholder="Judul Pengumuman" required />
+      <textarea placeholder="Isi Pengumuman" rows="4" required></textarea>
+      <button type="submit">Tambah Pengumuman</button>
+    </form>
+
+    <h2>Daftar Pengumuman</h2>
+    <div class="pengumuman-list">
+      <div class="pengumuman-item">
+        <h3>Ujian Tengah Semester</h3>
+        <p>Ujian Tengah Semester akan dilaksanakan mulai tanggal 25 Juni 2025.</p>
+        <button class="edit">Edit</button>
+        <button class="delete">Hapus</button>
+      </div>
+      <div class="pengumuman-item">
+        <h3>Penerimaan Rapor</h3>
+        <p>Penerimaan rapor semester genap akan dilaksanakan pada tanggal 12 Juli 2025.</p>
+        <button class="edit">Edit</button>
+        <button class="delete">Hapus</button>
+      </div>
+      <!-- Tambah item lainnya sesuai kebutuhan -->
+    </div>
+  </div>
+</body>
+</html>

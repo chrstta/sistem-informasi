@@ -1,0 +1,38 @@
+body {
+  margin: 0;
+  background-color: #AFDDFF;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.loader-container {
+  display: flex;
+  gap: 15px;
+}
+
+.dot {
+  width: 20px;
+  height: 20px;
+  background-color: white;
+  border-radius: 50%;
+  animation: bounce 0.6s infinite ease-in-out;
+}
+
+.dot:nth-child(2) {
+  animation-delay: 0.2s;
+}
+
+.dot:nth-child(3) {
+  animation-delay: 0.4s;
+}
+
+@keyframes bounce {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-15px);
+  }
+}

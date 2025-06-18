@@ -1,0 +1,66 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+  background-color: #f4f7fc;
+  padding: 40px;
+}
+
+.container {
+  background-color: white;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+  max-width: 1000px;
+  margin: auto;
+}
+
+h1 {
+  font-size: 26px;
+  margin-bottom: 20px;
+}
+
+.filter-bar {
+  display: flex;
+  gap: 15px;
+  margin-bottom: 20px;
+  flex-wrap: wrap;
+}
+
+select, .filter, .export {
+  padding: 10px 14px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  font-size: 14px;
+}
+
+button.filter {
+  background-color: #3498db;
+  color: white;
+  border: none;
+}
+
+button.export {
+  background-color: #27ae60;
+  color: white;
+  border: none;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+thead {
+  background-color: #e0f0ff;
+}
+
+th, td {
+  text-align: left;
+  padding: 12px 15px;
+  border: 1px solid #ddd;
+}

@@ -1,0 +1,165 @@
+/* Reset dan font */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+}
+
+/* Container dengan sidebar kanan */
+.container {
+  display: flex;
+  flex-direction: row-reverse;
+  height: 100vh;
+}
+
+/* Sidebar */
+.sidebar {
+  width: 260px;
+  background-color: #d4edff;
+  padding: 20px 0;
+  position: relative;
+  border-left: 1px solid #ccc;
+}
+
+.menu {
+  list-style: none;
+  padding: 0;
+}
+
+.menu li {
+  display: flex;
+  align-items: center;
+  padding: 16px 20px;
+  color: #000;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.menu li:hover {
+  background-color: #b8e1ff;
+}
+
+.menu i, .icon {
+  margin-right: 12px;
+  font-size: 20px;
+}
+
+/* Icon setting di kanan bawah */
+.settings-icon {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+/* Main content */
+.main-content {
+  flex: 1;
+  padding: 30px;
+  background-color: #f8f9fa;
+  overflow-y: auto;
+  position: relative;
+}
+
+/* Header */
+.header-content {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 10px;
+}
+
+.logo-header {
+  width: 50px;
+  height: auto;
+}
+
+.school-name {
+  font-size: 16px;
+  font-weight: bold;
+  color: #000;
+}
+
+/* Welcome section */
+.welcome-block {
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+
+.welcome-title {
+  font-size: 25px;
+  font-weight: bold;
+  color: #000;
+  margin-left: 8%;
+}
+
+.welcome-subtitle {
+  font-size: 16px;
+  font-weight: bold;
+  color: #000000;
+  margin-left: 8%;
+}
+
+/* Admin info */
+.admin-info {
+  display: flex;
+  align-items: center;
+  margin: 20px 0;
+}
+
+.admin-photo {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-right: 30px;
+}
+
+.admin-text h3 {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 6px;
+}
+
+.button-group {
+  margin-top: 10px;
+}
+
+.btn {
+  background-color: #000;
+  color: white;
+  padding: 8px 16px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  margin-right: 8px;
+}
+
+/* Ombak */
+.wave-bottom {
+  width: 100%;
+  display: block;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  opacity: 0.4;
+}
+
+.menu li a {
+  text-decoration: none;
+  color: black;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  padding: 8px 0;
+}
+
+.menu li a:hover {
+  color: #1e88e5;
+}
+
